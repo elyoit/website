@@ -14,11 +14,11 @@ export const projectsData = [
       { src: '/architecture/project1/image7.png', caption: "Default Caption" },
       { src: '/architecture/project1/image8.png', caption: "Default Caption" },
       { src: '/architecture/project1/image9.png', caption: "Default Caption" },
-      { src: '/architecture/project1/image10.png', caption: "Default Caption" }
+      { src: '/architecture/project1/image10.png', caption: "Default Caption" },
       { src: '/architecture/project1/image11.png', caption: "Default Caption" },
       { src: '/architecture/project1/image12.png', caption: "Default Caption" },
       { src: '/architecture/project1/image13.png', caption: "Default Caption" },
-      { src: '/architecture/project1/image14.png', caption: "Default Caption" },
+      { src: '/architecture/project1/image14.png', caption: "Default Caption" }
     ]
   },
   {
@@ -34,7 +34,7 @@ export const projectsData = [
       { src: '/architecture/project2/image5.png', caption: "Default Caption" },
       { src: '/architecture/project2/image6.png', caption: "Default Caption" },
       { src: '/architecture/project2/image7.png', caption: "Default Caption" },
-      { src: '/architecture/project2/image8.png', caption: "Default Caption" },
+      { src: '/architecture/project2/image8.png', caption: "Default Caption" }
     ]
   },
   {
@@ -48,7 +48,7 @@ export const projectsData = [
       { src: '/architecture/project3/image3.jpg', caption: "Default Caption" },
       { src: '/architecture/project3/image4.jpg', caption: "Default Caption" },
       { src: '/architecture/project3/image5.jpg', caption: "Default Caption" },
-      { src: '/architecture/project3/image6.jpg', caption: "Default Caption" },
+      { src: '/architecture/project3/image6.jpg', caption: "Default Caption" }
     ]
   },
   {
