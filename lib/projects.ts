@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     id: 'project1',
-    title: 'Project 1',
+    title: 'Living the Void',
     heroImage: '/architecture/project1/hero.png',
     paragraphs: [""],
     gallery: [
@@ -23,7 +23,7 @@ export const projectsData = [
   },
   {
     id: 'project2',
-    title: 'Project 2',
+    title: 'Curtain Wall Diagrams',
     heroImage: '/architecture/project2/hero.png',
     paragraphs: [""],
     gallery: [
@@ -39,7 +39,7 @@ export const projectsData = [
   },
   {
     id: 'project3',
-    title: 'Project 3',
+    title: 'Deep Eddy Pavilion',
     heroImage: '/architecture/project3/hero.jpg',
     paragraphs: ["This project is a pavilion near Deep Eddy Pool in Austin."],
     gallery: [
@@ -53,7 +53,7 @@ export const projectsData = [
   },
   {
     id: 'project4',
-    title: 'Project 4',
+    title: 'School of Tinkering',
     heroImage: '/architecture/project4/hero.jpg',
     paragraphs: ["This project is a design school near Deep Eddy Pool in Austin."],
     gallery: [
