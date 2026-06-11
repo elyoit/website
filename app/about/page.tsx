@@ -28,7 +28,7 @@ export default function AboutPage() {
               src={aboutData.profileImage} 
               alt={`Portrait of ${aboutData.name}`} 
               fill 
-              className="object-cover grayscale" 
+              className="object-cover" 
             /> 
             }
             <div className="absolute inset-0 flex items-center justify-center text-gray-400 text-sm tracking-widest uppercase">
