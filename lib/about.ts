@@ -1,6 +1,6 @@
 export const aboutData = {
   name: "Elliot Lai",
-  profileImage: '/architecture/project1/image1.png', // Update this when you add your image to the public folder
+  profileImage: '/images/profile.jpg', // Update this when you add your image to the public folder
   bio: [
     "I am a junior architecture student at The University of Texas at Austin pursuing the McCombs Business Minor. My approach to design is shaped by my years of violin experience, passion for origami, and interest in capturing life through photography.",
     "I'm seeking opportunities in Texas and the Bay Area where I can contribute my design skills and experience the professional world of architecture. I can be reached anytime through my email."
