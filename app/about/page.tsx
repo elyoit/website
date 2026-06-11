@@ -24,16 +24,14 @@ export default function AboutPage() {
           
           {/* Profile Image */}
           <div className="w-full md:w-1/3 aspect-[4/5] relative bg-gray-100 flex-shrink-0">
-            {/* Remove the generic div when you have your image ready, and uncomment this Image component:
-            <Image 
+            { <Image 
               src={aboutData.profileImage} 
               alt={`Portrait of ${aboutData.name}`} 
               fill 
               className="object-cover grayscale" 
             /> 
-            */}
+            }
             <div className="absolute inset-0 flex items-center justify-center text-gray-400 text-sm tracking-widest uppercase">
-              [ Portrait ]
             </div>
           </div>
 
