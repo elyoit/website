@@ -16,7 +16,7 @@ export default function PortfolioTemplate() {
         </Link>
         
         <div className="mb-8">
-          <h2 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Projects</h2>
+          <h2 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Architecture</h2>
           <ul className="space-y-2 text-sm">
             {projectsData.map((project) => (
               <li key={project.id}>
@@ -29,10 +29,12 @@ export default function PortfolioTemplate() {
         </div>
 
         <div>
-          <h2 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Info</h2>
+          <h2 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Me</h2>
           
           <ul className="space-y-2 text-sm">
-            <li><Link href="/about" className="hover:text-gray-500 transition-colors">About Me</Link></li>
+            <li><Link href="/about" className="hover:text-gray-500 transition-colors">About</Link></li>
+          </ul>
+
           </ul>
 
           <ul className="space-y-2 text-sm">
