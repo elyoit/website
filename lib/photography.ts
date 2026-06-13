@@ -1,19 +1,19 @@
 export const photographyData = {
-  title Photography,
-  description
-    A collection of architectural and experimental photography exploring light, space, and material.,
-  images [
+  title: "Photography",
+  description:
+    "A collection of architectural and experimental photography exploring light, space, and material.",
+  images: [
     {
-      src photographyphoto1.jpg,
-      title Urban Geometry,
+      src: "/photography/photo1.jpg",
+      title: "Urban Geometry",
     },
     {
-      src photographyphoto2.jpg,
-      title Light Study,
+      src: "/photography/photo2.jpg",
+      title: "Light Study",
     },
     {
-      src photographyphoto3.jpg,
-      title Material Texture,
+      src: "/photography/photo3.jpg",
+      title: "Material Texture",
     },
   ],
 };
