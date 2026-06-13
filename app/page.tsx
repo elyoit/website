@@ -55,7 +55,6 @@ export default function PortfolioTemplate() {
             </svg>
           </a>
         </div>
-        </div>
       </nav>
 
       {/* Main Content Area - Interactive Grid */}
