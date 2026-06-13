@@ -28,18 +28,13 @@ export default function PortfolioTemplate() {
           </ul>
         </div>
 
-        <div>
-          <h2 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Me</h2>
-          
+        <div className="mb-8">
+          <h2 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">About</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/about" className="hover:text-gray-500 transition-colors">About</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/photography">Photography</Link></li>
           </ul>
-
-          </ul>
-
-          <ul className="space-y-2 text-sm">
-            <li><Link href="/photography" className="hover:text-gray-500 transition-colors">Photography</Link></li>
-          </ul>
+        </div>
           
           {/* Social Icons */}
         <div className="flex gap-4 mt-8 text-gray-400">
