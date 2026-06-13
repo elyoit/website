@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { projectsData } from '@/lib/projects';
+import { photographyData } from "@/lib/photography";
 import { aboutData } from '@/lib/about';
 import CopyEmail from '@/components/CopyEmail';
 
