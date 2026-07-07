@@ -7,5 +7,10 @@ export const photographyData = {
     {src: "/photography/image2.jpg",title: "Urban Geometry"},
     {src: "/photography/image3.jpg",title: "Urban Geometry"},
     {src: "/photography/image4.jpg",title: "Urban Geometry"},
+    {src: "/photography/image5.jpg",title: "Urban Geometry"},
+    {src: "/photography/image6.jpg",title: "Urban Geometry"},
+    {src: "/photography/image7.jpg",title: "Urban Geometry"},
+    {src: "/photography/image8.jpg",title: "Urban Geometry"},
+    {src: "/photography/image9.jpg",title: "Urban Geometry"},
   ],
 };
