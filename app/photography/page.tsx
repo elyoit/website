@@ -40,5 +40,6 @@ export default function PhotographyPage() {
         ))}
       </div>
     </main>
+    </div>
   );
 }
