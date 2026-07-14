@@ -50,5 +50,6 @@ export default async function PhotoCategoryPage({
         ))}
       </div>
     </main>
+    </div>
   );
 }
