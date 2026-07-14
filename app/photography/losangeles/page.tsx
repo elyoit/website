@@ -1,34 +1,33 @@
 import Link from "next/link";
 import Image from "next/image";
-import { photoCategories } from "./data";
+import { notFound } from "next/navigation";
+import { photoCategories } from "../data";
 
-export default function PhotographyPage() {
+export function generateStaticParams() {
+  return photoCategories.map((cat) => ({ slug: cat.slug }));
+}
+
+export default function PhotoCategoryPage({ params }: { params: { slug: string } }) {
+  const category = photoCategories.find((c) => c.slug === params.slug);
+  if (!category) notFound();
+
   return (
-    <main className="max-w-5xl mx-auto px-6 py-16">
-      <Link href="/" className="text-sm underline">← Back to Portfolio</Link>
-      <h1 className="text-4xl font-light mt-6 mb-2">Photography</h1>
-      <p className="text-neutral-500 mb-12">
-        A collection of architectural and experimental photography exploring light, space, and material.
-      </p>
+    <main className="max-w-6xl mx-auto px-6 py-16">
+      <Link href="/photography" className="text-sm underline">← Back to Photography</Link>
+      <h1 className="text-4xl font-light mt-6 mb-12">{category.title}</h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        {photoCategories.map((cat) => (
-          <Link
-            key={cat.slug}
-            href={`/photography/${cat.slug}`}
-            className="group relative block overflow-hidden aspect-[4/3]"
-          >
+      <div className="columns-1 sm:columns-2 lg:columns-3 gap-4">
+        {category.photos.map((photo) => (
+          <div key={photo.src} className="mb-4 break-inside-avoid">
             <Image
-              src={cat.cover}
-              alt={cat.title}
-              fill
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              src={photo.src}
+              alt={photo.alt}
+              width={photo.width}
+              height={photo.height}
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              className="w-full h-auto"
             />
-            <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors" />
-            <h2 className="absolute bottom-4 left-4 text-white text-xl font-light">
-              {cat.title}
-            </h2>
-          </Link>
+          </div>
         ))}
       </div>
     </main>
