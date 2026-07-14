@@ -14,19 +14,21 @@ export interface PhotoCategory {
 
 export const photoCategories: PhotoCategory[] = [
   {
-    slug: "urban-geometry",
-    title: "Urban Geometry",
-    cover: "/photography/urban-geometry/image1.jpg",
+    slug: "losangeles",
+    title: "Los Angeles",
+    cover: "/photography/losangeles/image1.jpg",
     photos: [
-      { src: "/photography/urban-geometry/image1.jpg", width: 3840, height: 2560, alt: "Urban Geometry 1" },
-      { src: "/photography/urban-geometry/image2.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
-      // add the rest, real width/height matters for the grid
+      { src: "/photography/losangeles/image1.jpg", width: 3840, height: 2560, alt: "Urban Geometry 1" },
+      { src: "/photography/losangeles/image2.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
     ],
   },
   {
-    slug: "another-series",
-    title: "Another Series",
-    cover: "/photography/another-series/image1.jpg",
-    photos: [],
+    slug: "pittsburgh",
+    title: "Pittsburgh",
+    cover: "/photography/pittsburgh/image1.jpg",
+    photos: [
+      { src: "/photography/pittsburgh/image1.jpg", width: 3840, height: 2560, alt: "Urban Geometry 1" },
+      { src: "/photography/pittsburgh/image2.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
+    ],
   },
 ];
