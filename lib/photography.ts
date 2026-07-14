@@ -15,7 +15,7 @@ export interface PhotoCategory {
 export const photographyData = {
   title: "Photography",
   description:
-    "A collection of architectural and experimental photography exploring light, space, and material.",
+    "All images shot and edited by me.",
 };
 
 export const photoCategories: PhotoCategory[] = [
