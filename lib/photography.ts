@@ -21,23 +21,32 @@ export const photographyData = {
 export const photoCategories: PhotoCategory[] = [
   {
     slug: "losangeles",
-    title: "Urban Geometry",
+    title: "Los Angeles",
     cover: "/photography/losangeles/image1.jpg",
     photos: [
       { src: "/photography/losangeles/image1.jpg", width: 3840, height: 2560, alt: "Urban Geometry 1" },
       { src: "/photography/losangeles/image2.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
-      // add the rest with real width/height
+      { src: "/photography/losangeles/image3.jpg", width: 3840, height: 2560, alt: "Urban Geometry 1" },
+      { src: "/photography/losangeles/image4.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
+      { src: "/photography/losangeles/image5.jpg", width: 3840, height: 2560, alt: "Urban Geometry 1" },
+      { src: "/photography/losangeles/image6.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
+      { src: "/photography/losangeles/image7.jpg", width: 3840, height: 2560, alt: "Urban Geometry 1" },
+      { src: "/photography/losangeles/image8.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
+      { src: "/photography/losangeles/image9.jpg", width: 3840, height: 2560, alt: "Urban Geometry 1" },
+      { src: "/photography/losangeles/image10.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
     ],
   },
 
   {
     slug: "pittsburgh",
-    title: "Urban Geometry",
+    title: "Pittsburgh",
     cover: "/photography/pittsburgh/image1.jpg",
     photos: [
       { src: "/photography/pittsburgh/image1.jpg", width: 3840, height: 2560, alt: "Urban Geometry 1" },
       { src: "/photography/pittsburgh/image2.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
-      // add the rest with real width/height
+      { src: "/photography/pittsburgh/image3.jpg", width: 3840, height: 2560, alt: "Urban Geometry 1" },
+      { src: "/photography/pittsburgh/image4.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
+      { src: "/photography/pittsburgh/image5.jpg", width: 3840, height: 2560, alt: "Urban Geometry 1" },
     ],
   },
 ];
