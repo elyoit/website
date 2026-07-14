@@ -17,6 +17,13 @@ export default async function PhotoCategoryPage({
   if (!category) notFound();
 
   return (
+    <div className="min-h-screen bg-white text-gray-900 font-sans">
+      <header className="p-6 md:p-8">
+        <Link href="/" className="text-xs font-bold text-gray-400 uppercase tracking-widest hover:text-gray-900 transition-colors">
+          &larr; Back to Portfolio
+        </Link>
+      </header>
+    
     <main className="max-w-6xl mx-auto px-6 pb-20 mt-10 md:mt-20">
       <Link
         href="/photography"
