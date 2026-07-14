@@ -56,6 +56,10 @@ export default async function PhotoCategoryPage({
           {category.title}
         </h1>
 
+        <p className="text-lg leading-relaxed text-gray-700 mb-12">
+          {category.description}
+        </p>
+
         <div className="flex gap-4">
           {columns.map((col, i) => (
             <div key={i} className="flex flex-col gap-4 flex-1">
