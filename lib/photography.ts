@@ -29,4 +29,15 @@ export const photoCategories: PhotoCategory[] = [
       // add the rest with real width/height
     ],
   },
+
+  {
+    slug: "pittsburgh",
+    title: "Urban Geometry",
+    cover: "/photography/pittsburgh/image1.jpg",
+    photos: [
+      { src: "/photography/pittsburgh/image1.jpg", width: 3840, height: 2560, alt: "Urban Geometry 1" },
+      { src: "/photography/pittsburgh/image2.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
+      // add the rest with real width/height
+    ],
+  },
 ];
