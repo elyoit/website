@@ -8,6 +8,7 @@ export interface PhotoItem {
 export interface PhotoCategory {
   slug: string;
   title: string;
+  description: string;
   cover: string;
   photos: PhotoItem[];
 }
@@ -22,6 +23,7 @@ export const photoCategories: PhotoCategory[] = [
   {
     slug: "losangeles",
     title: "Los Angeles",
+    description: "hehe",
     cover: "/photography/losangeles/hero.jpg",
     photos: [
       { src: "/photography/losangeles/image1.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
@@ -37,6 +39,7 @@ export const photoCategories: PhotoCategory[] = [
   {
     slug: "pittsburgh",
     title: "Pittsburgh",
+    description: "hehe",
     cover: "/photography/pittsburgh/hero.jpg",
     photos: [
       { src: "/photography/pittsburgh/image1.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
