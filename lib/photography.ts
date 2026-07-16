@@ -16,7 +16,7 @@ export interface PhotoCategory {
 export const photographyData = {
   title: "Photography",
   description:
-    "All images shot and edited by me.",
+    "Most pictures shot on Canon EOS Rebel T4i and edited in Adobe Lightroom.",
 };
 
 export const photoCategories: PhotoCategory[] = [
