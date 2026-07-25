@@ -130,11 +130,11 @@ export const photoCategories: PhotoCategory[] = [
       { src: "/photography/upitt/image10.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
     ],
   },
-  /*{
+  {
     slug: "yosemite",
     title: "Yosemite",
-    description: "hehe",
-    cover: "/photography/upitt/hero.jpg",
+    description: "Weekend trip up to Yosemite's Mist Trail.",
+    cover: "/photography/yosemite/hero.jpg",
     photos: [
       { src: "/photography/yosemite/image1.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
       { src: "/photography/yosemite/image2.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
@@ -143,9 +143,6 @@ export const photoCategories: PhotoCategory[] = [
       { src: "/photography/yosemite/image5.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
       { src: "/photography/yosemite/image6.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
       { src: "/photography/yosemite/image7.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
-      { src: "/photography/yosemite/image8.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
-      { src: "/photography/yosemite/image9.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
-      { src: "/photography/yosemite/image10.jpg", width: 2560, height: 3840, alt: "Urban Geometry 2" },
     ],
-  },*/
+  },
 ];
